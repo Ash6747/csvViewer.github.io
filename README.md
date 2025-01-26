@@ -1,21 +1,76 @@
-# csv_upload
-    To upload a CSV file and show the data in it.
+# 📊 CSV Viewer
 
-## Hosted URL:
-    https://csv-viewer-zkxb.onrender.com
+**A user-friendly web application to view, search, and analyze CSV files.**
 
-## Features 
+🚀 **[Hosted App](https://ash6747.github.io/csvViewer.github.io)** | 💻 **Local Setup Guide Below**
 
-1.Upload any csv file into the system.
-2.Display a list of all uploaded csv files.
-3.When the user selects a file, display all the data (with column headers)in a table on the page (front end).
-4.A search box which searches on the front end itself and displays the matching rows of the table only.
-5.DIFFERENT CSV FILES WITH DIFFERENT COLUMN HEADERS CAN BE UPLOADED, YOUR TABLE HEADERS SHOULD BE DYNAMIC.
+---
 
+## 🛠️ Installation and Setup
 
-## How to INSTALL and RUN?
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Ash6747/csvViewer.github.io.git
+   cd csvViewer.github.io
+   ```
 
-1.Clone the project.
-2.Navigate to the folder cd csv_upload where the project has been Stored.
-3.Open Terminal and type npm install to install required files.
-4.Run following command: Nodemon .\index.js
+2. **Open the Application:**
+   Simply open the `index.html` file in your browser.
+
+---
+
+## 🎯 Features
+
+- 📂 **Upload CSV Files**: Drag and drop or browse to upload CSV files.
+- 🔍 **Search Functionality**: Quickly find data using the search bar.
+- 🧮 **Data Sorting**: Sort columns in ascending or descending order.
+- 📈 **Responsive Design**: Works seamlessly on desktops and mobile devices.
+
+---
+
+## 📋 Usage
+
+1. Launch the application using the hosted link or locally by opening `index.html`.
+2. Upload your CSV file using the provided upload area.
+3. Use the search bar to filter data instantly.
+4. Click on column headers to sort data.
+
+---
+
+## ⚙️ Technologies Used
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Libraries:** [PapaParse](https://www.papaparse.com/) for CSV parsing
+
+---
+
+## 💡 Future Enhancements
+
+- 📊 Integration with charting libraries for data visualization.
+- 🖨️ Export filtered or sorted data back to CSV.
+- 🌐 Support for multilingual interfaces.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m "Add new feature"`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a pull request.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+👤 **Author:** [Ash6747](https://github.com/Ash6747)
+
+Have questions? Feel free to open an issue or contact me!
+
